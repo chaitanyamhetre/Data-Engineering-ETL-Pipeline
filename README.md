@@ -74,9 +74,6 @@ Online Dataset (Parquet)
         ▼
 EXTRACT
 Read dataset using Spark
-        │
-        ▼
-LOAD
 Load data into Spark DataFrame
         │
         ▼
@@ -88,7 +85,6 @@ TRANSFORM
         │
         ▼
 LOAD
-Write transformed dataset to Parquet
 Create Spark SQL table
 ```
 
@@ -146,7 +142,7 @@ These are installed automatically in the notebook.
 
 # 🚀 Project Setup
 
-## Step 1 — Clone Repository
+## Step 1: Clone Repository
 
 ```bash
 git clone https://github.com/yourusername/spark-taxi-etl-pipeline.git
@@ -155,7 +151,7 @@ cd spark-taxi-etl-pipeline
 
 ---
 
-## Step 2 — Open in Google Colab
+## Step 2: Open in Google Colab
 
 Upload the notebook to **Google Colab**.
 
@@ -163,7 +159,7 @@ or run locally if Spark is installed.
 
 ---
 
-## Step 3 — Install Spark
+## Step 3: Install Spark
 
 The notebook installs Spark automatically:
 
@@ -318,18 +314,6 @@ Using the processed data, we can analyze:
 * Passenger distribution
 
 This demonstrates how **raw data can be transformed into analytical datasets**.
-
----
-
-# 📁 Project Structure
-
-```
-spark-taxi-etl-pipeline
-│
-├── taxi_etl_pipeline.ipynb
-├── README.md
-└── sample_data.parquet
-```
 
 ---
 
